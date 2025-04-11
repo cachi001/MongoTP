@@ -1,0 +1,35 @@
+# Directorios de compilación de Gradle
+/build/
+
+# Archivos de configuración de IDE (Ejemplo: IntelliJ IDEA, Eclipse, VS Code)
+.idea/
+*.iml
+.vscode/
+
+# Archivos de log
+*.log
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por Gradle (NO IGNORAR los archivos necesarios para la compilación)
+.gradle/
+
+# Archivos de configuración de Gradle
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Excluir cualquier archivo de dependencia local
+/.mvn/
+
+# Archivos de configuración de entorno local (NO IGNORAR, pero puedes configurarlos según lo necesites)
+.env
+
+# Archivos importantes que NO DEBEN SER IGNORADOS (RESTAURAR LOS QUE NECESITES):
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!src/main/**
+!src/test/**
+!build.gradle
+!settings.gradle
